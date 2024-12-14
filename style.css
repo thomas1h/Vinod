@@ -1,0 +1,52 @@
+.heading{
+    margin: top 0;;
+    background-color: bisque ;
+    color: white;
+}
+
+#blank{
+    height: 30px;
+    font-size: 14px;
+    transition: all 0.5s;
+    overflow:hidden;
+    background: #4ca753;
+    color: antiquewhite(255, 255, 255, 0.9);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;    
+}
+.fa-solid fa-phone{
+    background-color: black;
+}
+
+d-none{
+    display: none; !important;
+}
+
+.align-items-center{
+    -ms-flex-align: center; !important;
+    align-items: center !important
+}
+
+.fixed-top{
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 1030;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.d-flex{
+    display: -ms-flexbox !important;
+    display:flex !important;
+}
+.ml-auto{
+    margin-left: auto !important;
+}
+[class=icofont-]{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
